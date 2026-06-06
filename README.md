@@ -23,9 +23,6 @@ A React weather application that allows users to search for weather information 
 npm install
 npm run dev
 
-## Known Issue
-
-The provided API key returns an "API key is invalid" response. The application logic and API integration are implemented, and functionality can be tested using a valid API key.
 
 ## Author
 
