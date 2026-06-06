@@ -57,7 +57,6 @@
 
 .weather-data .col img {
     width: 24px;
-    /* ✅ Kept the correct size, removed the duplicate */
     height: 24px;
     object-fit: contain;
 }

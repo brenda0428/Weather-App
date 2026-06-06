@@ -76,7 +76,7 @@ const Weather = () => {
         }
     }
     const current = weather?.current || weather?.current_conditions || weather?.current_weather || null
-
+    const humidityValue = current?.humidity || current?.humidity_percent || current?.humidity_percentage || null
     return (
         <div className='weather'>
             <div className='search-bar'>
