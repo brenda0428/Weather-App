@@ -5,7 +5,6 @@
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-
 }
 
 .search-bar {
@@ -33,7 +32,6 @@
 .weather-image {
     width: 150px;
     margin: 30px 0;
-
 }
 
 .temperature {
@@ -49,27 +47,17 @@
 
 .weather-data {
     font-size: 0.85rem;
-    /* smaller text */
     color: #021016;
     margin-top: 10px;
     display: flex;
     justify-content: center;
-    /* center them */
     gap: 20px;
-    /* space between the two */
     align-items: center;
 }
 
 .weather-data .col img {
     width: 24px;
+    /* ✅ Kept the correct size, removed the duplicate */
     height: 24px;
-    object-fit: contain;
-}
-}
-
-.weather-data .col img {
-    width: 3px;
-    /* small icon size */
-    height: 1px;
     object-fit: contain;
 }
