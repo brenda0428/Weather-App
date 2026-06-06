@@ -118,7 +118,7 @@ const Weather = () => {
                 <div className='col'>
                     <img src={humidity} alt='humidity' />
                     <span>
-                        humidity: {current ? `${current.humidity}%` : '--'}
+                        humidity: {humidityValue !== null ? `${humidityValue}%` : '--'}
                     </span>
                 </div>
 
